@@ -1,0 +1,46 @@
+@media screen and (max-width: 740px) {
+    html{
+        font-size: 9px;
+    }
+    .wrap1 {
+        flex-direction: column; /* Stack items vertically on small screens */
+        min-height: 80vh; /* Adjust minimum height */
+    }
+
+    .container1 h1{
+        font-size: 2.6rem;
+    }
+    .box {
+        width: 100%; /* Full width on small screens */
+        min-height: 40vh; /* Minimum height for boxes */
+    }
+
+    .inp {
+        min-height: 10vh; /* Adjust input container height */
+        display: flex; /* Make it a flex container */
+        flex-direction: column; /* Stack children vertically */
+        /* border: 2px solid red; */
+        margin: 2rem 0;
+    }
+
+    .inp label, .inp input {
+        flex: 1; /* Allow both to take equal space */
+        width: 100%; /* Full width for both elements */
+    }
+
+    .inp input {
+        /* You can adjust any specific styles for the input here */
+        border-radius: 2rem; /* Example styling */
+        outline: none;
+        border: 1px solid #ccc; /* Add border to input */
+        padding: 0.5rem; /* Padding for input */
+    }
+    .wrap2 input{
+        font-size: 1.5rem;
+        width: 70px;
+    }
+
+    .txt textarea{
+        min-height: 20vh;
+    }
+}

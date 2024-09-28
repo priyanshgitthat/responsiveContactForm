@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right, #c9d4ec, #a283c4);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 70%;
+    min-height: 80vh; /* Minimum height of the wrapper */
+    border-radius: 2rem;
+    background: linear-gradient(to right, #41295a, #2f0743);
+    box-shadow: 10px 8px 10px #1b1027;
+    display: flex; /* Make this a flex container */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.container1 {
+    /* border: 2px solid green; */
+    min-height: 10vh; /* Minimum height (10% of 80vh) */
+    padding: 0 2rem;
+}
+
+.container1 h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-size: 3.3rem;
+    padding: 1rem;
+}
+
+.container2 {
+    /* border: 2px solid rgb(128, 0, 0); */
+    min-height: 70vh; /* Minimum height (90% of 80vh) */
+    padding: 0 2rem;
+}
+
+/* .wrap{
+    border: 2px solid white ;
+} */
+
+.wrap1{
+    min-height: 60vh;
+    display: flex;
+}
+
+.box{
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    justify-content: space-evenly;
+}
+
+.box .inp{
+    /* border: 2px solid white; */
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    /* margin: 2rem 0; */
+}
+
+.inp label, .inp input{
+    height: 50%;
+}
+
+.inp label{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: .2rem;
+}
+
+.inp input{
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    width: 80%;
+    padding: 0 1rem;
+}
+
+.inp input::placeholder{
+    color: #1b102763;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.inp input:focus{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box2 .inp{
+    /* border: 2px  solid white; */
+    height: 16%;
+}
+
+.box2 .txt{
+    height: 60%;
+    /* border: 2px solid white; */
+}
+
+.txt label{
+    height: 10%;
+    /* border: 2px solid red; */
+    margin: .5rem 0;
+}
+
+.txt textarea{
+    height: 100%;
+    resize: none;
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    outline: none;
+    border: none;
+
+}
+
+.txt textarea::placeholder{
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #1b102763;
+}
+
+.txt textarea:focus{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 1rem;
+}
+
+.wrap2{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.wrap2 input{
+    min-width: 18%;
+    width: 25%;
+    font-size: 2rem;
+    border-radius: 5rem;
+    margin: 1rem 0;
+    outline: none;
+    border: none;
+    border: 1px solid transparent;
+    color:#41295a;
+}
+
+.wrap2 input:hover{
+    color: white;
+    background-color:#2f0743;
+    border: 1px solid white;
+    box-shadow: 12px 3px 10px black;
+}
