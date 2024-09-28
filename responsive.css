@@ -2,6 +2,10 @@
     html{
         font-size: 9px;
     }
+
+    .wrapper{
+        width: 100%;
+    }
     .wrap1 {
         flex-direction: column; /* Stack items vertically on small screens */
         min-height: 80vh; /* Adjust minimum height */
